@@ -28,10 +28,9 @@ nav a {
     margin: 0 1rem;
 }
 
-.container {
+section {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     padding: 2rem;
 }
 
