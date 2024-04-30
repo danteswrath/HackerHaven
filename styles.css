@@ -32,6 +32,10 @@ section {
     padding: 2rem;
 }
 
+.center {
+    text-align: center;
+}
+
 footer {
     text-align: center;
     background-color: #333;
