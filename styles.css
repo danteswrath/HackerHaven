@@ -33,11 +33,11 @@ section {
 }
 
 h2 {
-    align-text: center;
+    text_align: center;
 }
 
 p {
-    align-text: center;
+    text-align: center;
 }
 
 footer {
