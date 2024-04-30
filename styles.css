@@ -33,7 +33,15 @@ section {
 }
 
 h2 {
-    text_align: center;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+   text-align: center;
 }
 
 p {
