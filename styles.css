@@ -32,9 +32,12 @@ section {
     padding: 2rem;
 }
 
-.center {
-    display: flex;
-    align-items: center;
+h2 {
+    align-text: center;
+}
+
+p {
+    align-text: center;
 }
 
 footer {
