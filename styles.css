@@ -41,7 +41,11 @@ nav a {
     padding: 5px 10px;
     maring: 5px;
 }
-    
+
+h5 {
+    font-size: 10px;
+}
+
 a {
     text-align: center;
 }
