@@ -30,15 +30,8 @@ nav a {
 
 .container {
     text-align: center;
+    flex-wrap: wrap;
  }
-
-.job ul {
-    text-align: center;
-}
-
-.job li {
-    text-align: center;
-}
 
 a {
     text-align: center;
