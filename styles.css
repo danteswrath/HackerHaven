@@ -31,7 +31,19 @@ nav a {
 .container {
     text-align: center;
  }
+.projectlist ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.projectlist li {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 5px 10px;
+    maring: 5px;
+}
     
 a {
     text-align: center;
