@@ -1,143 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Chase Berendt</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* Dark Mode Styles */
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #121212;
-            color: #e0e0e0;
-        }
-        .header {
-            text-align: center;
-            padding: 50px;
-            background-color: #1c1c1c;
-        }
-        .projects, .skills, .contact {
-            padding: 50px 0;
-        }
-        .card {
-            margin: 20px;
-            background-color: #1e1e1e;
-            color: #e0e0e0;
-        }
-        .card a {
-            color: #1e90ff;
-        }
-        .card img {
-            border-bottom: 1px solid #333;
-        }
-        .skills ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills ul li {
-            background-color: #1c1c1c;
-            padding: 10px;
-            margin: 5px 0;
-            border-radius: 5px;
-        }
-        .bg-light {
-            background-color: #242424 !important;
-        }
-        a {
-            color: #1e90ff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .container h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cybersecurity Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f172a;
+      color: #f1f5f9;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1e293b;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #38bdf8;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #94a3b8;
+    }
+    nav {
+      background: #0f172a;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    nav a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #38bdf8;
+      display: inline-block;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: #1e293b;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      color: #38bdf8;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      color: #cbd5e1;
+    }
+    footer {
+      background: #1e293b;
+      padding: 2rem;
+      text-align: center;
+      color: #64748b;
+    }
+  </style>
 </head>
 <body>
-    <!-- Header Section -->
-    <header class="header">
-        <h1>Welcome to Chase Berendt's Portfolio</h1>
-        <p>Cyber Security Specialist | Ethical Hacking Enthusiast</p>
-    </header>
+  <header>
+    <h1>Chase Berendt</h1>
+    <p>Ethical Hacker | Bug Bounty Hunter | Cybersecurity Enthusiast</p>
+  </header>
 
-    <!-- Projects Section -->
-    <section class="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="row">
-                <!-- Project 1 -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="proxy-image.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Bug Bounty</h5>
-                            <p class="card-text">My bug bounty project is my ongoing effort in testing web technologies for vulnerabilities and reporting those vulnerabilities to bug bounty platforms such as, HackerOne and BugCrowd</p>
-                            <a href="https://youtu.be/w1re_GK2eQw" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="cyber-security-3400657_1280.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Cyber Defender</h5>
-                            <p class="card-text">This project is for me to learn the defending side of cybersecurity, so I impliment a lot of security controls on my own machine and plan on implementing a SIEM and IDS/IPS into my home netowrk</p>
-                            <a href="https://youtu.be/jZGJ746oAFg" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Additional projects can be added similarly -->
-            </div>
-        </div>
-    </section>
-    <!-- Skills Section -->
-    <section class="skills bg-light">
-        <div class="container">
-            <h2>Skills</h2>
-            <h5>Operating Systems</h5>
-            <ul>
-                <li>Windows OS</li>
-                <li>Debian Linux (Ubuntu and Kali)</li>
-                <!-- Add more skills -->
-            </ul>
-            <h5>Web Technologies</h5>
-            <ul>
-                <li>HTML5/CSS</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
-            </ul>
-            <h5>Technical Skills</h5>
-            <ul>
-                <li>Advanced hardware/software troubleshooting</li>
-                <li>Powershell</li>
-                <li>Linux Terminal</li>
-                <li>TCP/IP</li>
-                <li>Network Management</li>
-                <li>Network Protocols</li>
-                <li>Active Directory</li>
-                <li>Bash Scripting</li>
-                <li>Wireshark</li>
-                <li>Experience with many hacking tools</li>
-            </ul>
-        </div>
-    </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <!-- Contact Section -->
-    <section class="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Phone: 385-389-8882</p>
-            <p>Email: <a href="mailto:chaes.p.berendt@gmail.com">chase.p.berendt@gmail.com</a></p>
-            <!-- Or include a contact form -->
-        </div>
-    </section>
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a cybersecurity specialist passionate about ethical hacking, bug bounties, and cyber defense. I love uncovering vulnerabilities, securing systems, and continuously learning in the ever-evolving field of infosec.</p>
+  </section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="projects" id="project-list">
+      <!-- Projects inserted by JavaScript -->
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/chase-berendt-648a8631a/" target="_blank">https://www.linkedin.com/in/chase-berendt-648a8631a/</a></p>
+    <p>GitHub: <a href="https://github.com/danteswrath" target="_blank">https://github.com/danteswrath</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+
+  <script>
+    const projects = [
+      {
+        title: "HackerOne",
+        description: "Reports and disclosures submitted through the HackerOne platform, showcasing responsible vulnerability disclosure."
+      },
+      {
+        title: "Cyber Defense",
+        description: "Projects focused on detecting, analyzing, and defending against cyber threats in simulated environments."
+      },
+      {
+        title: "CTF Challenges",
+        description: "Participation in Capture The Flag events with solutions and walkthroughs focused on reverse engineering and web exploitation."
+      }
+    ];
+
+    const container = document.getElementById("project-list");
+    projects.forEach(project => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <h3>${project.title}</h3>
+        <p>${project.description}</p>
+      `;
+      container.appendChild(card);
+    });
+  </script>
 </body>
 </html>
